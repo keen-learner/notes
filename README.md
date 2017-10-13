@@ -14,3 +14,4 @@
 - [https://stackoverflow.com/questions/3825990/http-response-code-for-post-when-resource-already-exists?rq=1]
 - [https://msdn.microsoft.com/en-us/library/mt607711.aspx]
 - [https://www.digitalocean.com/community/tutorials/an-introduction-to-snmp-simple-network-management-protocol]
+- [https://www.slideshare.net/cmoberg/a-30minute-introduction-to-netconf-and-yang]
