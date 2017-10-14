@@ -13,11 +13,23 @@
 - [http://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife]
 - [https://stackoverflow.com/questions/3825990/http-response-code-for-post-when-resource-already-exists?rq=1]
 - [https://msdn.microsoft.com/en-us/library/mt607711.aspx]
-- [https://www.digitalocean.com/community/tutorials/an-introduction-to-snmp-simple-network-management-protocol]
-- [https://www.slideshare.net/cmoberg/a-30minute-introduction-to-netconf-and-yang]
 - [https://dzone.com/articles/rest-web-service-interview]
 - [http://www.xpertdeveloper.com/2011/03/http-etag-explained/]
 - [https://stackoverflow.com/questions/630453/put-vs-post-in-rest?rq=1]
+- [https://softwareengineering.stackexchange.com/questions/287063/java-rest-api-how-do-i-check-for-duplicate-before-inserting-record]
+- [http://blog.mugunthkumar.com/articles/restful-api-server-doing-it-the-right-way-part-1/]
+- [http://blog.mugunthkumar.com/articles/restful-api-server-doing-it-the-right-way-part-2/]
+- [http://www.restapitutorial.com/lessons/whatisrest.html]
+- [https://github.com/RestCheatSheet/api-cheat-sheet]
+- [http://www.softwaretestinghelp.com/restful-web-services-interview-question/]
+- [https://www.dineshonjava.com/spring-rest-web-services-interview-questions-and-answers/]
+
+
+# CLI NETWORK SNMP etc.
+
+- [https://www.digitalocean.com/community/tutorials/an-introduction-to-snmp-simple-network-management-protocol]
 - [https://www.slideshare.net/cmoberg/a-30minute-introduction-to-netconf-and-yang]
+
+# Distributed
+
 - [https://www.quora.com/Why-do-distributed-databases-such-as-Dynamo-and-Voldemort-choose-the-Vector-Clock-to-control-the-ordering-of-multi-version-records-What%E2%80%99s-the-advantage-Why-not-choose-the-direct-timestamp-of-each-record]
-- []
