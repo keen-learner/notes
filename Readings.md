@@ -25,6 +25,10 @@
 - [https://www.dineshonjava.com/spring-rest-web-services-interview-questions-and-answers/]
 
 
+# REST API PAGINATION
+
+- [https://medium.com/square-corner-blog/tips-and-tricks-for-api-pagination-5cacc6f017da]
+
 # CLI NETWORK SNMP etc.
 
 - [https://www.digitalocean.com/community/tutorials/an-introduction-to-snmp-simple-network-management-protocol]
