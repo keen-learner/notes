@@ -24,16 +24,23 @@
 - [http://www.softwaretestinghelp.com/restful-web-services-interview-question/]
 - [https://www.dineshonjava.com/spring-rest-web-services-interview-questions-and-answers/]
 
-
 # REST API PAGINATION
 
 - [https://medium.com/square-corner-blog/tips-and-tricks-for-api-pagination-5cacc6f017da]
+- [https://stackoverflow.com/questions/13872273/api-pagination-best-practices]
 
 # CLI NETWORK SNMP etc.
 
 - [https://www.digitalocean.com/community/tutorials/an-introduction-to-snmp-simple-network-management-protocol]
 - [https://www.slideshare.net/cmoberg/a-30minute-introduction-to-netconf-and-yang]
 
+# LOW LEVEL CONCEPTS
+
+- [https://www.linuxjournal.com/article/6463]
+- [https://www.iecc.com/linker/]
+- [https://www.linuxjournal.com/article/1059]
+
 # Distributed
 
 - [https://www.quora.com/Why-do-distributed-databases-such-as-Dynamo-and-Voldemort-choose-the-Vector-Clock-to-control-the-ordering-of-multi-version-records-What%E2%80%99s-the-advantage-Why-not-choose-the-direct-timestamp-of-each-record]
+- [https://jepsen.io]
