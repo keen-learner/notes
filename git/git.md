@@ -13,7 +13,7 @@
 | git branch [branchName]                          | Just create the branch and not switch to it    |
 | git branch -d [branchname]                       | to delete a local branch; The -D option is an alias for --delete --force, which deletes the branch "irrespective of its merged status."<br> [https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely)   |
 | git branch -v                                    | List all branches with last commit    |
-| git branch --merged/ or --no-merged              | The useful --merged and --no-merged options can filter this list to branches that you have or have not yet merged into the branch you’re currently on. |
+| git branch --merged / --no-merged              | The useful --merged and --no-merged options can filter this list to branches that you have or have not yet merged into the branch you’re currently on. |
 | git branch -vv                                   | See what tracking branches you have set up |
 | git checkout dev                                 | to check out a branch, sets local directory to the specific branch, dev     |
 | git checkout -b dev                              | creates local branch, dev and switches to it     |
@@ -62,3 +62,23 @@
 | git remote set-url origin |                                                                                                             |
 | git remote prune origin   | to locally remove stale branches that no longer exist in the remote                                         |
 | git remote update origin  |                                                                                                             |
+
+
+## How to push a local Git branch to master branch
+
+```
+    git checkout master
+    git pull               # to update the state to the latest remote master state
+    git merge develop      # to bring changes to local master from your develop branch
+    git push origin master # push current HEAD to remote master branch
+```
+
+## Rewind the master branch of the repository to a previous pushed commit
+run this:
+```
+    git reset --hard <last sha that you want to keep>
+    git push --force
+```
+This may have unintended consequences if, for instance, there are collaborators on your repository. But, I am sure you know what you're doing 😉 
+<br>[https://stackoverflow.com/questions/69968797/how-to-undo-the-last-commit-on-github](https://stackoverflow.com/questions/69968797/how-to-undo-the-last-commit-on-github)
+<br>[https://stackoverflow.com/questions/1270514/undoing-a-git-push](https://stackoverflow.com/questions/1270514/undoing-a-git-push)
